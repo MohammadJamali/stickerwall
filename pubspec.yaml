@@ -1,0 +1,20 @@
+name: stickerwall
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.1.6
+  sensors_plus: ^6.1.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/xcode.png
